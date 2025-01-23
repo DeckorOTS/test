@@ -1,0 +1,33 @@
+/* Estilos globales para la aplicación */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* Configuración de enlaces */
+a {
+    text-decoration: none;
+    color: #1a73e8;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
